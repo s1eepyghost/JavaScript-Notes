@@ -16,3 +16,16 @@
 //----- 7. Write "git commit -m" to write a comment on the push (it helps to describe what you did, if your pushing for the first time, write "first commit")
 //----- 8. Write "git push origin master (or main)" to finalize the push
 //----- 9. Go back to the GitHub page and refresh it, there you'll see the repository updated with the files added
+
+// Convert Celsuis to Fahrenheit
+function convertCtoF(celsius) {
+    let fahrenheit = celsius * (9 / 5) + 32;
+    return fahrenheit;
+  }
+  
+  // Change the inputs below to test your code
+  convertCtoF(30);
+
+  // Code Explanation
+    // Declare the fahrenheit variable.
+    // Make sure the proper order of arithmetic operations is followed by using parenthesis (()) when needed.
